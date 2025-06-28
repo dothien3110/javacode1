@@ -13,8 +13,8 @@ class MyThread extends Thread{
         int i = 0;
         while(i<100)
         {
-    System.out.println(getName()+" "+i);
-    i++;
-    }  
+            System.out.println(getName()+" "+i);
+            i++;
+        }  
   }
 }
